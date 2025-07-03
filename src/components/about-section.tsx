@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Award, Heart, Palette, Users } from "lucide-react"
+import { Heart, Palette, Users } from "lucide-react"
 import Image from "next/image"
 
 import img7 from '../../public/img7.jpg'
