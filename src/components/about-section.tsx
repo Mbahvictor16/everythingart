@@ -5,7 +5,7 @@ import { Heart, Palette, Users } from "lucide-react"
 import Image from "next/image"
 
 import img20 from '../../public/img20.jpeg'
-import img1 from '../../public/img1.jpg'
+import img7 from '../../public/img7.jpg'
 import img4 from '../../public/img4.jpg'
 import img3 from '../../public/img3.jpg'
 
@@ -114,7 +114,7 @@ export default function AboutSection() {
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
                   <Image
-                    src={img1}
+                    src={img7}
                     alt="Textile detail"
                     width={300}
                     height={300}
