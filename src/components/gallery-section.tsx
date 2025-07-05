@@ -31,7 +31,7 @@ export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
 
   const galleryImages = [
-    { id: 1, title: img1, category: "Wall Hangings", size: "Large" },
+    { id: 1, title: img20, category: "Wall Hangings", size: "Large" },
     { id: 2, title: img2, category: "Tapestries", size: "Medium" },
     { id: 3, title: img3, category: "Wall Hangings", size: "Large" },
     { id: 4, title: img4, category: "Sculptures", size: "Small" },
@@ -50,7 +50,7 @@ export default function GallerySection() {
     { id: 17, title: img17, category: "Sculptures", size: "Large" },
     { id: 18, title: img18, category: "Wall Hangings", size: "Small" },
     { id: 19, title: img19, category: "Sculptures", size: "Medium" },
-    { id: 20, title: img20, category: "Sculptures", size: "Large" }
+    { id: 20, title: img1, category: "Sculptures", size: "Large" }
   ]
 
   return (

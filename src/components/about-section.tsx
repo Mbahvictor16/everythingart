@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Heart, Palette, Users } from "lucide-react"
 import Image from "next/image"
 
-import img7 from '../../public/img7.jpg'
+import img20 from '../../public/img20.jpg'
 import img1 from '../../public/img1.jpg'
 import img4 from '../../public/img4.jpg'
 import img3 from '../../public/img3.jpg'
@@ -105,7 +105,7 @@ export default function AboutSection() {
               <div className="space-y-6">
                 <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
                   <Image
-                    src={img7}
+                    src={img20}
                     alt="Artisan at work"
                     width={300}
                     height={400}
