@@ -9,14 +9,23 @@ import img1 from "../../public/img1.jpg"
 import img2 from "../../public/img2.jpg"
 import img3 from "../../public/img3.jpg"
 import img4 from "../../public/img4.jpg"
-import img5 from "../../public/img5.jpg"
+import img5 from "../../public/img5.jpeg"
 import img6 from "../../public/img6.jpg"
 import img7 from "../../public/img7.jpg"
 import img8 from "../../public/img8.jpg"
-import img9 from "../../public/img9.jpg"
+import img9 from "../../public/img9.jpeg"
 import img10 from "../../public/img10.jpg"
 import img11 from "../../public/img11.jpg"
 import img12 from "../../public/img12.jpg"
+import img13 from "../../public/img13.jpg"
+import img14 from "../../public/img14.jpg"
+import img15 from "../../public/img15.jpg"
+import img16 from "../../public/img16.jpg"
+import img17 from "../../public/img17.jpg"
+import img18 from "../../public/img18.jpg"
+import img19 from "../../public/img19.jpg"
+import img20 from "../../public/img20.jpeg"
+
 
 export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
@@ -34,6 +43,14 @@ export default function GallerySection() {
     { id: 10, title: img10, category: "Tapestries", size: "Medium" },
     { id: 11, title: img11, category: "Wall Hangings", size: "Large" },
     { id: 12, title: img12, category: "Sculptures", size: "Small" },
+    { id: 13, title: img13, category: "Wall Hangings", size: "Medium" },
+    { id: 14, title: img14, category: "Tapestries", size: "Large" },
+    { id: 15, title: img15, category: "Sculptures", size: "Small" },
+    { id: 16, title: img16, category: "Tapestries", size: "Meduim" },
+    { id: 17, title: img17, category: "Sculptures", size: "Large" },
+    { id: 18, title: img18, category: "Wall Hangings", size: "Small" },
+    { id: 19, title: img19, category: "Sculptures", size: "Medium" },
+    { id: 20, title: img20, category: "Sculptures", size: "Large" }
   ]
 
   return (

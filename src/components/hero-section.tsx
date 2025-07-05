@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles } from "lucide-react"
 import Image from "next/image"
 
-import img9 from '../../public/img9.jpg'
+import img9 from '../../public/img9.jpeg'
 
 export default function HeroSection() {
   return (
