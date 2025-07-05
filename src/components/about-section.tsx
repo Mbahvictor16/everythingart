@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Heart, Palette, Users } from "lucide-react"
 import Image from "next/image"
 
-import img20 from '../../public/img20.jpg'
+import img20 from '../../public/img20.jpeg'
 import img1 from '../../public/img1.jpg'
 import img4 from '../../public/img4.jpg'
 import img3 from '../../public/img3.jpg'
